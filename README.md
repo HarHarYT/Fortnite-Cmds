@@ -1,4 +1,4 @@
-# CSV to Markdown Table
+# Fortnite Cmds
 
 This table was generated from a CSV file:
 
