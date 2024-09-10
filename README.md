@@ -3194,7 +3194,7 @@ This document was generated from two CSV files: `cmds.csv` and `vars.csv`
 | ExposureOverride.NightSkyLightLeaking | 0.1 | Constructor |
 | ExternalContentLoader.UseContentResolver | true | Constructor |
 | Fabric.CablePortSize | 0 | Constructor |
-| Fabric.Scalability.AllowCrossfadeDuringMetasoundBuild | true | PluginLowPriority |
+| Fabric.Scalability.AllowCrossfadeDuringMetasoundBuild | true | Constructor |
 | Fabric.Scalability.MemoryModeCables | -1 | Constructor |
 | Fabric.Scalability.MemoryModeCallbacksPerFrame | -1 | Constructor |
 | Fabric.Scalability.MemoryModeSequencerGridSquares | -1 | Constructor |
@@ -5139,7 +5139,7 @@ This document was generated from two CSV files: `cmds.csv` and `vars.csv`
 | Fort.Scalability.AthenaPlayerBudget | 5 | 10 | 10 | Scalability |
 | Fort.Scalability.AthenaPlayerBudget.Movement | 5 | 5 | 15 | Scalability |
 | Fort.Scalability.AthenaPlayerBudget.SkelMeshMinLOD | 0 | 1 | 1 | 2 | Scalability |
-| Fort.Scalability.AthenaPlayerBudget.UROInterpolation | 1 | 1 | 0 | 0 | Scalability |
+| Fort.Scalability.AthenaPlayerBudget.UROInterpolation | 1 | 1 | 1 | 1 | Constructor |
 | Fort.Scalability.AthenaPlayerBudget.URORates | 0 | 1 | 2 | 3 | Scalability |
 | Fort.Scalability.AthenaSKVehicleBudget | 3 | 3 | Scalability |
 | Fort.Scalability.AthenaSKVehicleBudget.AudioControllerBudget | 4 |  3 | Constructor |
@@ -5308,7 +5308,7 @@ This document was generated from two CSV files: `cmds.csv` and `vars.csv`
 | fort.TouchInteractTraceForwardOffset | 20 | Constructor |
 | fort.TouchMoveStickAutorunAngle | 45 | Constructor |
 | Fort.TouchPickupWithoutIcon | 1 | Constructor |
-| fort.TouchStickAccumulateMouseEvents | true | Code |
+| fort.TouchStickAccumulateMouseEvents | true | Constructor |
 | Fort.TraceLengthToCheckNearbyBuildings | 511 | Constructor |
 | fort.TrackAsyncLoadingGUIDThresholdOwner | 0 | Constructor |
 | fort.TrackQueuedActorThresholdOwner | 0 | Constructor |
@@ -5435,7 +5435,7 @@ This document was generated from two CSV files: `cmds.csv` and `vars.csv`
 | FortAbility.EnableSlideCancelling | true | Constructor |
 | FortAbility.MaxTargetSelectionRangeCapsuleRadiusMultiplier | 1.25 | Constructor |
 | FortAbility.TrajectoryApexMinDistanceScalar | 0.1 | Constructor |
-| FortActivityLibrary.EnableCreatorCodeAsDisplayName | true | SystemSettingsIni |
+| FortActivityLibrary.EnableCreatorCodeAsDisplayName | 1 | SystemSettingsIni |
 | FortActivityLibrary.EnableSmallCacheSizeDeterminedBySuffix | false | Constructor |
 | FortActivityLibrary.UseLinkCategoryIcon | true | Constructor |
 | FortActivityLibrary.UseLogoOnDiscoveryTile | true | SystemSettingsIni |
@@ -7802,13 +7802,13 @@ This document was generated from two CSV files: `cmds.csv` and `vars.csv`
 | Mobile.ButtonBehaviour.UseDeferredSetSprite | true | Constructor |
 | Mobile.DisableADSFire | false | Constructor |
 | Mobile.DisableCustomAutorunLockZone | true | Constructor |
-| mobile.EnableActionButtonClickThroughRerouting | false | Code |
+| mobile.EnableActionButtonClickThroughRerouting | false | Constructor |
 | Mobile.EnableAimAssistTouchMultiplier | true | Constructor |
 | mobile.EnableDarkTheme | true | Constructor |
 | mobile.EnableDynamicHUD | false | Hotfix |
 | mobile.EnableDynamicHUDInputBasedHUDSwitch | false | Constructor |
 | mobile.EnableDynamicHUDLogs | false | Constructor |
-| mobile.EnableDynamicHUDVirtualJoysticks | false | Code |
+| mobile.EnableDynamicHUDVirtualJoysticks | false | Constructor |
 | Mobile.EnableUITextScaling | 0 | Constructor |
 | Mobile.Experience.AllowsTapToShoot | true | Constructor |
 | Mobile.ForceHUDLayoutToolButtonVisible | false | Constructor |
@@ -8207,12 +8207,12 @@ This document was generated from two CSV files: `cmds.csv` and `vars.csv`
 | net.SupportFastArrayDelta | 1 | Constructor |
 | net.TickAllOpenChannels | 0 | Constructor |
 | net.TrackAsyncLoadingGUIDThreshold | 0.25 | SystemSettingsIni |
-| net.TrackAsyncLoadingGUIDThresholdOwner | 0 | Code |
+| net.TrackAsyncLoadingGUIDThresholdOwner | 0 | Constructor |
 | net.TrackDormantObjectsByLevel | false | Constructor |
 | net.TrackFlushedDormantObjects | 1 | Constructor |
 | net.TrackNetSerializeObjectReferences | true | SystemSettingsIni |
 | net.TrackQueuedActorThreshold | 0.5 | SystemSettingsIni |
-| net.TrackQueuedActorThresholdOwner | 0 | Code |
+| net.TrackQueuedActorThresholdOwner | 0 | Constructor |
 | net.UnreliableRPCQueueSize | 10 | Constructor |
 | net.UseAdaptiveNetUpdateFrequency | 1 | SystemSettingsIni |
 | Net.UsePackedShadowBuffers | 1 | Constructor |
@@ -9634,7 +9634,7 @@ This document was generated from two CSV files: `cmds.csv` and `vars.csv`
 | r.AOMaxViewDistance | 20000 | Constructor |
 | r.AOObjectDistanceField | 1 | Constructor |
 | r.AOOverwriteSceneColor | 0 | Constructor |
-| r.AOQuality | 2 | Scalability |
+| r.AOQuality | 1 | Scalability |
 | r.AOSampleSet | 1 | Constructor |
 | r.AOScatterTileCulling | 1 | Constructor |
 | r.AOSpecularOcclusionMode | 0 | SystemSettingsIni |
@@ -11865,7 +11865,7 @@ This document was generated from two CSV files: `cmds.csv` and `vars.csv`
 | r.SeparateTranslucency | 1 | Scalability |
 | r.SeparateTranslucencyScreenPercentage | 100 | Constructor |
 | r.SeparateTranslucencyUpsampleMode | 1 | Constructor |
-| r.SetRes | 1920x1080wf | SystemSettingsIni |
+| r.SetRes | 1920x1032w | SystemSettingsIni |
 | r.ShaderBundle.MaxSize | 8192 | Constructor |
 | r.ShaderCodeLibrary.AsyncIOAllowDontCache | 0 | Constructor |
 | r.ShaderCodeLibrary.DefaultAsyncIOPriority | 3 | Constructor |
@@ -12538,7 +12538,7 @@ This document was generated from two CSV files: `cmds.csv` and `vars.csv`
 | r.VHM.MaxRenderInstances | 4096 | Constructor |
 | r.VHM.Occlusion | 1 | Constructor |
 | r.ViewDistanceScale | 2 | Scalability |
-| r.ViewDistanceScale.ApplySecondaryScale | 0 | Code |
+| r.ViewDistanceScale.ApplySecondaryScale | 0 | Constructor |
 | r.ViewDistanceScale.FieldOfViewAffectsHLOD | 0 | Constructor |
 | r.ViewDistanceScale.FieldOfViewMaxAngle | 80 | Scalability |
 | r.ViewDistanceScale.FieldOfViewMaxAngleScale | 1 | Scalability |
@@ -13108,7 +13108,7 @@ This document was generated from two CSV files: `cmds.csv` and `vars.csv`
 | s.StreamableStripDebugNameInShipping | true | SystemSettingsIni |
 | s.TimeLimitExceededMinTime | 0.005 | ProjectSetting |
 | s.TimeLimitExceededMultiplier | 1.5 | ProjectSetting |
-| s.UnregisterComponentsTimeLimit | 1 | Code |
+| s.UnregisterComponentsTimeLimit | 1 | ProjectSetting |
 | s.UseBackgroundLevelStreaming | 1 | ProjectSetting |
 | s.VerifyObjectLoadFlags | false | Constructor |
 | s.VerifyUnreachableObjects | false | Constructor |
@@ -13573,7 +13573,7 @@ This document was generated from two CSV files: `cmds.csv` and `vars.csv`
 | Slate.EnableFastWidgetPath | false | Constructor |
 | Slate.EnableFontAntiAliasing | 1 | Constructor |
 | Slate.EnableGamepadEditorNavigation | true | Constructor |
-| Slate.EnableGlobalInvalidation | false | Code |
+| Slate.EnableGlobalInvalidation | false | Constructor |
 | Slate.EnableInvalidationPanels | true | Constructor |
 | Slate.EnableLayoutLocalization | 1 | Constructor |
 | Slate.EnableLegacyFontHinting | 0 | Constructor |
@@ -13582,7 +13582,7 @@ This document was generated from two CSV files: `cmds.csv` and `vars.csv`
 | Slate.EnableSlateWidgetTracker | 0 | Constructor |
 | Slate.EnableSyntheticCursorMoves | true | Constructor |
 | Slate.EnableTooltips | true | Constructor |
-| Slate.Font.AsyncLazyLoad | false | Code |
+| Slate.Font.AsyncLazyLoad | false | Constructor |
 | Slate.ForceBackgroundBlurLowQualityOverride | 0 | Scalability |
 | Slate.GlobalScrollAmount | 32 | Constructor |
 | Slate.GrowFontAtlasFrameWindow | 1 | Constructor |
